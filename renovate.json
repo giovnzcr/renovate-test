@@ -4,7 +4,7 @@
      "config:recommended"
   ],
   "postUpgradeTasks": {
-    "commands": ["ng update @angular/core@18 @angular/cli@18 --force"],
+    "commands": ["git add .","git commit -m \" commit before update \" " ,"ng update @angular/core@18 @angular/cli@18 --force"],
     "executionMode": "branch" 
   }
 }
